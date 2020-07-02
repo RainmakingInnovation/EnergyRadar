@@ -1545,13 +1545,13 @@
           .attr("x", -titleLogoWidth / 2); 
   
         d3.csv(
-          "https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRNHDkhn1v2Q3xs_t77v1cGFG-ZUDfTSrOM2tJZI3bIbeYwjjJMgSkuvou5qtw_dWN_7oN2o9gr0EdB/pub?gid=1685108473&single=true&output=csv"
+          "Schneider Electric Radar - Startups (Radar).csv"
         ).then(function(data) {
           d3.csv(
-            "https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRNHDkhn1v2Q3xs_t77v1cGFG-ZUDfTSrOM2tJZI3bIbeYwjjJMgSkuvou5qtw_dWN_7oN2o9gr0EdB/pub?gid=1089447501&single=true&output=csv"
+            "Schneider Electric Radar - Definitions (Radar).csv"
           ).then(function(desc) {
 
-            d3.csv("https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRNHDkhn1v2Q3xs_t77v1cGFG-ZUDfTSrOM2tJZI3bIbeYwjjJMgSkuvou5qtw_dWN_7oN2o9gr0EdB/pub?gid=835578165&single=true&output=csv"
+            d3.csv("Schneider Electric Radar - Hero Startups (Radar).csv"
             ).then(function(hero_data) { 
 
               console.log('data', data)
